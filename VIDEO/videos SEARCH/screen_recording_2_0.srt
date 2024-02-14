@@ -1,0 +1,56 @@
+1
+00:00:00,033 --> 00:00:10,927
+1. startApplication("C:\Users\ASUS\Downloads\Advantage+demo+3.2.apk", true)
+
+2
+00:00:10,928 --> 00:00:13,780
+5. tap(findTestObject("Object Repository/search/android.widget.EditText - Search"), 0)
+
+3
+00:00:13,781 --> 00:00:17,626
+9. setText(findTestObject("Object Repository/search/android.widget.EditText - Search"), "hp", 0)
+
+4
+00:00:17,627 --> 00:00:18,576
+13. tap(findTestObject("Object Repository/search/android.widget.ImageView"), 0)
+
+5
+00:00:18,576 --> 00:00:21,657
+17. tap(findTestObject("Object Repository/search/android.widget.ImageView (2)"), 0)
+
+6
+00:00:21,660 --> 00:00:22,068
+21. tap(findTestObject("Object Repository/search/android.widget.Button - ADD TO CART"), 0)
+
+7
+00:00:22,068 --> 00:00:23,656
+25. tap(findTestObject("Object Repository/login/username tap"), 0)
+
+8
+00:00:23,656 --> 00:00:26,993
+29. setText(findTestObject("Object Repository/login/input username"), "cicicaca13", 0)
+
+9
+00:00:26,994 --> 00:00:28,099
+33. tap(findTestObject("Object Repository/login/password tap"), 0)
+
+10
+00:00:28,099 --> 00:00:30,829
+37. setText(findTestObject("Object Repository/login/input password"), "Cintilucu13", 0)
+
+11
+00:00:30,830 --> 00:00:31,663
+41. tap(findTestObject("Object Repository/login/android.widget.Button - LOGIN"), 0)
+
+12
+00:00:31,664 --> 00:00:33,935
+45. tap(findTestObject("Object Repository/login/loggin yes"), 0)
+
+13
+00:00:33,935 --> 00:00:37,934
+49. tap(findTestObject("Object Repository/login/home"), 0)
+
+14
+00:00:37,934 --> 00:00:42,134
+53. closeApplication()
+

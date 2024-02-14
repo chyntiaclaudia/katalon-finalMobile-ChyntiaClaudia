@@ -1,0 +1,20 @@
+1
+00:00:00,165 --> 00:00:17,928
+1. startApplication("C:\Users\ASUS\Downloads\Advantage+demo+3.2.apk", true)
+
+2
+00:00:17,934 --> 00:00:20,202
+5. tap(findTestObject("Object Repository/search not found/android.widget.EditText - Search"), 0)
+
+3
+00:00:20,202 --> 00:00:24,046
+9. setText(findTestObject("Object Repository/search not found/android.widget.EditText - Search"), "asus", 0)
+
+4
+00:00:24,047 --> 00:00:24,914
+13. tap(findTestObject("Object Repository/search not found/android.widget.ImageView"), 0)
+
+5
+00:00:24,915 --> 00:00:29,795
+17. closeApplication()
+
